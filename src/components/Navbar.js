@@ -4,12 +4,14 @@ import '../css/Navbar.css';
 function Navbar() {
   return (
     <div className='header'>
-     <img src="./dnt.png" alt='logo'/>
+    <input type="checkbox" id="check"/>
+    <label for="check" className='checkbtn'><i className="fa fa-bars"></i></label>
+
      <ul>
-        <li>ABOUT</li>
-        <li>PROJECT</li>
-        <li>CERTIFICATES</li>
-        <li>CONTACT</li>
+        <li><a href='#'>ABOUT</a></li>
+        <li><a href='#'>PROJECT</a></li>
+        <li><a href='#'>CERTIFICATES</a></li>
+        <li><a href='#'>CONTACT</a></li>
      </ul>
     </div>
   )
