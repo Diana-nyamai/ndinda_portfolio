@@ -1,0 +1,17 @@
+.header{
+    background: #000;
+    height: 80px;
+    color: #fff;
+}
+.header img{
+    margin-right: auto;
+}
+.header ul{
+    float: right;
+}
+.header ul li{
+  display: inline-block;
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0 10px;
+}
