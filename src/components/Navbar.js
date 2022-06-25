@@ -8,10 +8,10 @@ function Navbar() {
     <label for="check" className='checkbtn'><i className="fa fa-bars"></i></label>
 
      <ul>
-        <li><link to='#'>ABOUT</link></li>
-        <li><link to='#'>PROJECT</link></li>
-        <li><link to='#'>CERTIFICATES</link></li>
-        <li><link to='#'>CONTACT</link></li>
+        <li><a href='#'>ABOUT</a></li>
+        <li><a href='#'>PROJECT</a></li>
+        <li><a href='#'>CERTIFICATES</a></li>
+        <li><a href='#'>CONTACT</a></li>
      </ul>
     </div>
   )
