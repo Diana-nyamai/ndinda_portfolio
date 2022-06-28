@@ -8,10 +8,11 @@ function Navbar() {
     <label for="check" className='checkbtn'><i className="fa fa-bars"></i></label>
 
      <ul>
-        <li><a href='./about.js'>ABOUT</a></li>
-        <li><a href='#'>PROJECT</a></li>
-        <li><a href='#'>CERTIFICATES</a></li>
-        <li><a href='#'>CONTACT</a></li>
+        
+        <li><a href='./about.js'>PROJECTS</a></li>
+        <li><a href='./about.js'>CERTIFICATES</a></li>
+        <li><a href='./about.js'>CONTACT</a></li>
+        <li><a href='./about.js'>PROJECTS</a></li>
      </ul>
     </div>
   )
