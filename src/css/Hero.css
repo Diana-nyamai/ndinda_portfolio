@@ -12,7 +12,7 @@
     flex-direction: column;
     font-family: 'Special Elite', cursive;
 }
-.left-container{
+.center-container{
     /* height: 80vh; */
     background: white;
     background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.1));
@@ -24,12 +24,12 @@
     letter-spacing: 1px;
     font-size: 30px;
     z-index: 4;
-    backdrop-filter: blur(2rem);
+    backdrop-filter: blur(10px);
 }
-.left-container span{
+.center-container span{
     color: #E87DA4;
 }
-.left-container button{
+.center-container button{
     height: 40px;
     width: 150px;
     background: #E87DA4;
@@ -39,12 +39,12 @@
     margin-top: 20px;
     text-align: center;
 }
-.left-container button a{
+.center-container button a{
     color: #000;
     font-family: 'Special Elite', cursive;
     font-size: 16px;
 }
-.left-container h1,h3,p,button{
+.center-container h1,h3,p,button{
     padding: 10px 0;
 }
 .right-container{

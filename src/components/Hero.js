@@ -6,7 +6,7 @@ function Hero() {
   return (
     <div className="container">
     <Navbar/>
-        <div className='left-container'>
+        <div className='center-container'>
             <h1>Hi there, I'm <span>Diana</span></h1>
             <h3>I am a <span>front-end</span> developer.</h3>
             <p>Would you like to see my work?</p>
