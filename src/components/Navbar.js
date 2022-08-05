@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/Navbar.css';
+import {Link} from 'react-scroll'
 
 function Navbar() {
   return (
@@ -8,10 +9,10 @@ function Navbar() {
     <label for="check" className='checkbtn'><i className="fa fa-bars"></i></label>
 
      <ul>
-        <li><a href='./about.js'>PROJECTS</a></li>
-        <li><a href='./about.js'>CERTIFICATES</a></li>
-        <li><a href='./about.js'>PROJECTS</a></li>
-        <li><a href='./about.js'>CONTACT</a></li>
+        <li><Link to='about'  spy={true} smooth={true} offset={50} duration={500}>ABOUT</Link></li>
+        <li> <Link to='projects' spy={true} smooth={true} offset={50} duration={500}>PROJECTS </Link></li>
+        <li> <Link to='certifictes'  spy={true} smooth={true} offset={50} duration={500}>CERTIFICATES </Link></li>
+        <li> <Link to='contact'  spy={true} smooth={true} offset={50} duration={500}>CONTACT </Link></li>
      </ul>
     </div>
   )

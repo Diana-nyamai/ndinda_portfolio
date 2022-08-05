@@ -1,14 +1,14 @@
 .header{
     background: rgba(234, 255, 2555, 0.1);
-    /* background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.1)); */
     box-shadow: 0 3px 6px rgba(255, 255, 2555, 0.2);
-    /* border-radius: 40px; */
     height: 70px;
     color: #000;
     width: 100%;
     padding: 30px 0;
     backdrop-filter: blur(10px);
     font-family: 'Special Elite', cursive;
+    z-index: 100;
+    position: relative;
 }
 
 .header ul{
@@ -44,7 +44,7 @@
     position: fixed;
     width: 100%;
     height: 30vh;
-    background: #161313;
+    background: rgba(234, 255, 2555, 0.4);
     top: 70px;
     left: -100%;
     text-align: center;
@@ -53,6 +53,9 @@
    .header ul li{
     display: block;
     margin: 20px;
+   }
+   .header ul li a{
+    color: black;
    }
    #check:checked ~ ul{
     left: 0;

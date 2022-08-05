@@ -1,23 +1,35 @@
 import React from 'react'
 import '../css/Hero.css';
+import About from './About';
 import Navbar from './Navbar';
+import Projects from './Projects';
+import {Link} from 'react-scroll'
 
 function Hero() {
   return (
-    <div className="container">
-    <Navbar/>
+    <div className='main-container'>
+
+    <div className="container">    <Navbar/>
         <div className='center-container'>
-            <h1>Hi there, I'm <span>Diana</span></h1>
-            <h3>I am a <span>front-end</span> developer.</h3>
+            <h1>Hi there, I'm <em>Diana</em></h1>
+            <h3>I am a <em>front-end</em> developer.</h3>
             <p>Would you like to see my work?</p>
-            <button><a href='./hhh.js'>see my work</a></button>
+            <button><Link to='projects'><i className='span'>see my work</i><i className='i'></i> </Link></button>
         </div>
-        <div className='right-container'>
-          <img src='./Saly.png' alt='rightsaly' width={600} />
-        </div>
-        <div className='circle1'></div>
-        <div className='circle2'></div>
-    </div>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        
+        </div><div><About/></div>
+        <Projects/></div>
+
   )
 }
 

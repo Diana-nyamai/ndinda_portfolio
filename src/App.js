@@ -17,7 +17,7 @@ function App() {
     <div className='app'>
     {
       loading? 
-      <ClipLoader color={'#E87DA4'} loading={loading} size={60} />
+      <ClipLoader color={'#E87DA4'} loading={loading} size={120} />
       :
       <Hero/>
     }

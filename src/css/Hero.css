@@ -1,3 +1,7 @@
+.main-container{
+    position: relative;
+    height: 100vh;
+}
 .container{
     width: 100%;
     height: 100vh;
@@ -7,10 +11,12 @@
     background-attachment: fixed;
     color: #000;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     font-family: 'Special Elite', cursive;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 15px 35px rgba(255, 255, 255 0.05); 
 }
 .center-container{
     /* height: 80vh; */
@@ -26,32 +32,179 @@
     z-index: 4;
     backdrop-filter: blur(10px);
 }
-.center-container span{
+.center-container em{
     color: #E87DA4;
 }
-.center-container button{
-    height: 40px;
+button{
+    position: relative;
+    height: 50px;
     width: 150px;
     background: #E87DA4;
-    border-radius: 15px;
     border: none;
     outline: none;
     margin-top: 20px;
     text-align: center;
-}
-.center-container button a{
-    color: #000;
-    font-family: 'Special Elite', cursive;
+    letter-spacing: 0.1em;
+    transition: .5s;
     font-size: 16px;
+    color: #fff;
+    font-family: 'Special Elite', cursive;
+}
+button:hover{
+    cursor: pointer;
+    letter-spacing: 0.25em;
+    width: 160px;
+    color: #fff;
+    box-shadow: 0 0 15px #E87DA4;
+}
+
+button::before{
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: #d66690;
+}
+
+ button .span{
+    position: relative;
+    z-index: 1;
+}
+button .i{
+    position: absolute;
+    inset: 0;
+    display: block;
+} 
+button .i::before{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #d66690;
+    border: 2px solid #E87DA4;
+    top: -6px;
+    left: 100%;
+    transform: translateX(-50%);
+    transition: .5s;
+}
+button:hover .i::before{
+    left: 0;
+    transform:  translateX(-50%) rotate(45deg);
+    box-shadow: 40px 39px #E87DA4;
+}
+button .i::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #d66690;
+    border: 2px solid #E87DA4;
+    bottom: -6px;
+    left: 0;
+    transform: translateX(-50%);
+    transition: .5s;
+}
+button:hover .i::after{
+    left: 100%;
+    transform:  translateX(-50%) rotate(-45deg);
+    box-shadow: 38px -39px #E87DA4;
 }
 .center-container h1,h3,p,button{
     padding: 10px 0;
 }
-.right-container{
+
+
+.container span{
     position: absolute;
-    opacity: .1;
-    top: 10;
-    /* z-index: 1; */
+    bottom: 800px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: linear-gradient(-135deg, pink, white);
+    animation: animate 10s linear infinite;
+}
+.container span:nth-child(1){
+    left: 0;
+    animation-delay: .6s;
+    height: 50px;
+    width: 50px;
+}
+.container span:nth-child(2){
+    left: 10%;
+    animation-delay: 3s;
+    height: 60px;
+    width: 60px;
+}
+.container span:nth-child(3){
+    left: 20%;
+    animation-delay: 2s;
+    height: 80px;
+    width: 80px;
+}
+.container span:nth-child(4){
+    left: 30%;
+    animation-delay: 5s;
+}
+.container span:nth-child(5){
+    left: 40%;
+    animation-delay: 1s;
+}
+.container span:nth-child(6){
+    left: 50%;
+    animation-delay: 7s;
+    height: 90px;
+    width: 90px;
+}
+.container span:nth-child(7){
+    left: 60%;
+    animation-delay: 6s;
+    height: 120px;
+    width: 120px;
+}
+.container span:nth-child(8){
+    left: 70%;
+    animation-delay: 8s;
+}
+.container span:nth-child(9){
+    left: 80%;
+    animation-delay: 6s;
+    width: 50px;
+    height: 50px;
+}
+.container span:nth-child(10){
+    left: 90%;
+    animation-delay: 4s;
+}
+@keyframes animate {
+    0%{
+        bottom: 100%;
+        margin-left: 50px;
+        margin-right: 0;
+    }
+    20%{
+       bottom: 20%; 
+       margin-left: 0;
+       margin-right: 90px;
+    }
+    40%{
+       bottom: 40%; 
+       margin-left: 50px;
+       margin-right: 0;
+    }
+    60%{
+       bottom: 60%; 
+       margin-left: 0;
+       margin-right: 90px;
+    }
+    80%{
+       bottom: 80%; 
+       margin-left: 50px;
+       margin-right: 0;
+    }
+    100%{
+       bottom: 100%; 
+       margin-left: 0;
+       margin-right: 90px;
+    }
 }
 .circle1,
 .circle2{
