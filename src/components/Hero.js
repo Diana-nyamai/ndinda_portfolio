@@ -4,12 +4,15 @@ import About from './About';
 import Navbar from './Navbar';
 import Projects from './Projects';
 import {Link} from 'react-scroll'
+import Certificates from './Certificates';
+import Contact from './Contact';
 
 function Hero() {
   return (
     <div className='main-container'>
 
-    <div className="container">    <Navbar/>
+    <div className="container">    
+        <Navbar/>
         <div className='center-container'>
             <h1>Hi there, I'm <em>Diana</em></h1>
             <h3>I am a <em>front-end</em> developer.</h3>
@@ -26,9 +29,12 @@ function Hero() {
         <span></span>
         <span></span>
         <span></span>
-        
-        </div><div><About/></div>
-        <Projects/></div>
+        </div>
+        <About/>
+        <Projects/>
+        <Certificates/>
+        <Contact/>
+        </div>
 
   )
 }

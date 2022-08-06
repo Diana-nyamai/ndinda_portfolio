@@ -1,5 +1,4 @@
 import './App.css';
-// import './css/Navbar.css'
 import ClipLoader from "react-spinners/CircleLoader";
 import Hero from './components/Hero';
 import { useEffect, useState } from 'react';

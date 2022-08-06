@@ -15,7 +15,7 @@
     align-items: center;
     flex-direction: column;
     font-family: 'Special Elite', cursive;
-    border-bottom: 3px solid rgba(255, 255, 255, 0.4);
+    border-bottom: 3px dotted rgba(223, 81, 152, 0.4);
     box-shadow: 0 15px 35px rgba(255, 255, 255 0.05); 
 }
 .center-container{
