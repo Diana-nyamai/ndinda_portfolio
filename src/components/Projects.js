@@ -21,7 +21,7 @@ function Projects() {
     {
       image: "../mywork4.jpeg",
       title: "The pinkpalace",
-      link: "https://pinkpalace.co.ke/",
+      link: "",
     },
   ];
   return (

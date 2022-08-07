@@ -1,0 +1,58 @@
+.certificate{
+    position: relative;
+    width: 100%;
+    background-image:url(../../public/landing.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.certificate h2{
+    padding: 10px 0;
+    width: 100px;
+    border-bottom: 2px solid black;
+    text-align: center;
+    margin: 0 auto;
+}
+.c-container{
+    margin: 30px auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+.c-container .c-card{
+    width: 300px;
+    height: auto;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.c-container .c-card:hover{
+    transform: translate(10px, 10px);
+}
+.c-container .c-card .c-content img{
+    width: 100%;
+    border-radius: 15px;
+}
+.c-container .c-card .c-content p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.c-container .c-card .c-content a{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    /* margin-top: 10px; */
+    padding: 10px;
+    background: #E87DA4;
+    border-radius: 30px;
+    color: #fff;
+}

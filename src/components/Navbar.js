@@ -9,9 +9,9 @@ function Navbar() {
     <label for="check" className='checkbtn'><i className="fa fa-bars"></i></label>
 
      <ul>
-        <li><Link to='about'  spy={true} smooth={true} offset={50} duration={500}>ABOUT</Link></li>
-        <li> <Link to='projects' spy={true} smooth={true} offset={50} duration={500}>PROJECTS </Link></li>
-        <li> <Link to='certifictes'  spy={true} smooth={true} offset={50} duration={500}>CERTIFICATES </Link></li>
+        <li><Link to='about'  spy={true} smooth={true} offset={-10} duration={500}>ABOUT</Link></li>
+        <li> <Link to='projects' spy={true} smooth={true} offset={-50} duration={500}>PROJECTS </Link></li>
+        <li> <Link to='certificates'  spy={true} smooth={true} offset={-50} duration={500}>CERTIFICATES </Link></li>
         <li> <Link to='contact'  spy={true} smooth={true} offset={50} duration={500}>CONTACT </Link></li>
      </ul>
     </div>
