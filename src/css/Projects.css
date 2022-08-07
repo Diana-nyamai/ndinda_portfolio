@@ -44,7 +44,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.pcontainer .card .contents{
     transition: 0.5s;
+}
+.pcontainer .card:hover{
+    transform: translate(10px, 10px);
 }
