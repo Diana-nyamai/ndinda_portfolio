@@ -4,24 +4,24 @@ import "../css/Projects.css";
 function Projects() {
   const ProjectData = [
     {
-      image: "../Saly.png",
-      descr: "mochoice",
+      image: "../mywork1.jpeg",
+      title: "Mochoice",
       link: "#",
     },
     {
-      image: "../Saly.png",
-      descr: "mochoice",
+      image: "../mywork2.jpeg",
+      title: "Amie Foundation",
       link: "#",
     },
     {
-      image: "../Saly.png",
-      descr: "mochoice",
+      image: "../mywork3.jpeg",
+      title: "Fundis",
       link: "#",
     },
     {
-      image: "../Saly.png",
-      descr: "mochoice",
-      link: "#",
+      image: "../mywork4.jpeg",
+      title: "The pinkpalace",
+      link: "https://pinkpalace.co.ke/",
     },
   ];
   return (
@@ -32,8 +32,8 @@ function Projects() {
           <div className="card">
             <div className="contents">
               <img src={data.image} alt="" />
-              <p>{data.descr}</p>
-              {/* */} <a href={data.link}>view website</a>
+              <p>{data.title}</p>
+           <a href={data.link}>view website</a>
             </div>
           </div>
         ))}

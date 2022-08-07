@@ -1,7 +1,6 @@
 .project{
     position: relative;
     width: 100%;
-    border: 1px solid black;
 }
 .project::before{
     content: '';
@@ -11,7 +10,7 @@
     width: 100%;
     height: 100%;
     background: linear-gradient(#f00, #f0f);
-    clip-path: circle(10% at right 70%);
+    clip-path: circle(13% at 98% 70%);
     z-index: -1;
 }
 .project::after{
@@ -22,8 +21,15 @@
     width: 100%;
     height: 100%;
     background: linear-gradient(#2196f3, #f0f);
-    clip-path: circle(15% at 0% 10%);
+    clip-path: circle(15% at 5% 20%);
     z-index: -1;
+}
+.project h2{
+    padding: 10px 0;
+    width: 100px;
+    border-bottom: 2px solid black;
+    text-align: center;
+    margin: 0 auto;
 }
 .pcontainer{
     margin: 30px auto;
@@ -36,16 +42,34 @@
 }
 .pcontainer .card{
     width: 500px;
-    height: 400px;
+    height: 350px;
     margin: 30px;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
     background: rgba(255, 255, 255, 0.1);
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     transition: 0.5s;
 }
 .pcontainer .card:hover{
     transform: translate(10px, 10px);
+}
+.pcontainer .card .contents img{
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+.pcontainer .card .contents p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.pcontainer .card .contents a{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    /* margin-top: 10px; */
+    padding: 10px;
+    background: #E87DA4;
+    border-radius: 30px;
+    color: #fff;
 }
