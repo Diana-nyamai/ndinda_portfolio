@@ -5,11 +5,12 @@
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    margin-top: 150px;
 }
 
 .certificate h2{
-    padding: 10px 0;
-    width: 100px;
+    padding: 30px 0 10px;
+    width: 200px;
     border-bottom: 2px solid black;
     text-align: center;
     margin: 0 auto;
