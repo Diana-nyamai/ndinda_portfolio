@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/certificates.css";
+
 function Certificates() {
   const certData = [
     {

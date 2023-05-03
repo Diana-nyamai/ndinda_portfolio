@@ -4,24 +4,14 @@ import "../css/Projects.css";
 function Projects() {
   const ProjectData = [
     {
-      image: "../mywork1.jpeg",
-      title: "Mochoice",
-      link: "#",
-    },
-    {
       image: "../mywork2.jpeg",
       title: "Amie Foundation",
       link: "#",
     },
     {
-      image: "../mywork3.jpeg",
-      title: "Fundis",
-      link: "#",
-    },
-    {
       image: "../mywork4.jpeg",
       title: "The pinkpalace",
-      link: "",
+      link: "https://pinkpalace.co.ke/index.html",
     },
   ];
   return (
