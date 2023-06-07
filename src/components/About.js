@@ -11,12 +11,11 @@ function About() {
         </div>
         <div className="childcontainer2">
           <p>My name is Diana Ndinda Nyamai.</p>
-          <p>I am a diligent and ambitious individual 
-          with a great passion in Front-end 
-          development. </p>
-          <p>I am proficient in the technologies: 
-          Javascript,reactjs, html5,css,
-          php,vuejs and python</p>
+          <p>I am a passionate Front-end engineer. </p>
+          <p>
+            I am proficient in the technologies: Javascript,reactjs, html5,css,
+            php,vuejs and python
+          </p>
         </div>
       </div>
     </div>
