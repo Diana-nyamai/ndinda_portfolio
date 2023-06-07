@@ -24,19 +24,16 @@ function Certificates() {
   ];
   return (
     <div className="certificate" id="certificates">
-    <h2>Certificates</h2>
-    <div className="c-container">
-    {
-      certData.map((cdata) =>
-      <div className="c-card">
-        <div className="c-content">
-        <img src={cdata.image} alt="" />
-        </div>
+      <h2>Certificates</h2>
+      <div className="c-container">
+        {certData.map((cdata) => (
+          <div className="c-card">
+            <div className="c-content">
+              <img src={cdata.image} alt="" />
+            </div>
+          </div>
+        ))}
       </div>
-      )
-    }
-      
-    </div>
     </div>
   );
 }

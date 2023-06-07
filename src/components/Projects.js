@@ -23,7 +23,7 @@ function Projects() {
             <div className="contents">
               <img src={data.image} alt="" />
               <p>{data.title}</p>
-           <a href={data.link}>view website</a>
+              <a href={data.link}>view website</a>
             </div>
           </div>
         ))}
