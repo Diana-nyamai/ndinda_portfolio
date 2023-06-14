@@ -7,9 +7,9 @@ This repository contains the source code and assets for my personal portfolio we
 Checkout the live version of my portfolio website [Here](https://www.ndinda.me/)
 ## Technologies used
 
+- REACT JS
+- SASS
 - HTML
-- CSS
-- React js
 
 ## Features
 - Home page with an introduction and overview of my skills and experience.
