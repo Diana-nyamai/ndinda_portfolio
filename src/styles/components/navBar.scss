@@ -1,0 +1,80 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 2rem;
+    background-color: $primary-color;
+    color: $text-color;
+    box-shadow: inset -9px -9px 18px #041a2c,
+        inset 9px 9px 18px #0c4270;
+}
+nav{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    color: $text-color;
+    padding: 10px 15px;
+    margin: 0 10px;
+    transition: all 0.3s 0.2s;
+    border-radius: 5px;
+    background: $primary-color;
+    box-shadow: inset -11px 11px 7px #03121f66,
+            inset 11px -11px 7px #0d4a7d;
+}
+nav li:hover{
+    cursor: pointer;
+    box-shadow: inset 11px -11px 7px #03121f66,
+            inset -11px 11px 7px #0d4a7d;
+    color: $secondary-color;
+}
+    
+header .navBtn{
+    padding: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: $text-color;
+    visibility: hidden;
+    opacity: 0;
+}
+@media all and (max-width: 1024px)
+{
+    header .navBtn{
+        visibility: visible;
+        opacity: 1;
+    }
+    header nav{
+        position: fixed;
+        padding: 40px 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+        background-color: $primary-color;
+        box-shadow: inset -11px 11px 7px #03121f66,
+            inset 11px -11px 7px #0d4a7d;
+        transition: 1s;
+        transform: translateY(-100vh);
+    }
+    nav li{
+        width: 70%;
+        text-align: center;
+    }
+    header .responsiveNav{
+        transform: none;
+    }
+    nav .navCloseBtn{
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        font-size: 25px;
+    }
+}
