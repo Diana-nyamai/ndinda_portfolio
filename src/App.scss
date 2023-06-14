@@ -1,0 +1,7 @@
+@import "./styles/variables/variables.scss";
+@import "./styles/components/navBar.scss";
+
+.app{
+    background-color: $primary-color;
+    height: 100vh;
+}
