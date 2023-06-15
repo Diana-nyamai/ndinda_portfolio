@@ -1,0 +1,32 @@
+.homeContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.greetings{
+    width: 100%;
+    padding: 0 0 0 100px;
+}
+.homeText{
+    margin: 40px 0;
+}
+.homeText p{
+    margin: 20px 0;
+    font-size: 25px;
+    font-family: $body-font;
+}
+.homeText h1{
+    font-size: 50px;
+    font-family: $heading-font;
+}
+.techImg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.techImg img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
