@@ -9,12 +9,14 @@ header{
     box-shadow: inset -9px -9px 18px #041a2c,
         inset 9px 9px 18px #0c4270;
 }
+header h4{
+    font-family: $heading-font;
+}
 nav{
     display: flex;
 }
 nav li{
     list-style: none;
-    color: $text-color;
     padding: 10px 15px;
     margin: 0 10px;
     transition: all 0.3s 0.2s;
@@ -23,10 +25,17 @@ nav li{
     box-shadow: inset -11px 11px 7px #03121f66,
             inset 11px -11px 7px #0d4a7d;
 }
+nav li a{
+    font-family: $body-font;
+    color: $text-color;
+    text-decoration: none;
+}
 nav li:hover{
     cursor: pointer;
     box-shadow: inset 11px -11px 7px #03121f66,
             inset -11px 11px 7px #0d4a7d;
+}
+nav li a:hover{
     color: $secondary-color;
 }
     
