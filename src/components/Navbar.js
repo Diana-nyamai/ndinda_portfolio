@@ -22,8 +22,8 @@ function Navbar() {
       navLink: "/Blogs",
     },
     {
-      navItem: "contact",
-      navLink: "Contact",
+      navItem: "Contact",
+      navLink: "/Contact",
     },
   ];
   const navRef = useRef();
