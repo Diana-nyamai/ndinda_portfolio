@@ -20,6 +20,9 @@
     font-size: 50px;
     font-family: $heading-font;
 }
+.homeBtn{
+    display: flex;
+}
 .techImg{
     width: 100%;
     display: flex;
@@ -29,4 +32,24 @@
     width: 500px;
     height: 500px;
     object-fit: cover;
+}
+
+@media all and (max-width: 1024px) {
+    .homeContainer{
+        display: flex;
+        max-width: 1024px;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .greetings{
+        width: 100%;
+        padding: 0 0 0 100px;
+        // text-align: center;
+    }
+    .techImg
+    {
+        display: none;
+    }
 }

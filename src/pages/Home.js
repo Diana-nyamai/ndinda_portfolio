@@ -1,5 +1,6 @@
 import React from 'react'
 import illustration from '../assets/illustration.png'
+import Button1 from '../components/Button1'
 
 function Home() {
   return (
@@ -12,8 +13,8 @@ function Home() {
         <p>I am a Front-End Engineer</p>
       </div>
       <div className="homeBtn">
-        <button>Get in touch</button>
-        <button>Download cv</button>
+        <Button1 name="Get in Touch"/>
+        <Button1 name="Download CV"/>
       </div>
      </div>
 
