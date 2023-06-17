@@ -1,0 +1,43 @@
+.btn1container{
+    width: auto;
+    height: auto;
+    margin: 0 5px;
+}
+.btn1Center{
+    width: 180px;
+    height: 60px;
+}
+.btn1{
+    position: relative;
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid $text-color;
+    outline: none;
+    transition: 1s ease-in-out;
+}
+.btn1Center svg{
+    position: relative;
+    fill: none;
+    stroke: $text-color;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+}
+.btn1:hover {
+    background: $primary-color;
+    transition: 1s ease-in-out;
+}
+.btn1:hover svg{
+    stroke-dashoffset: -480;
+}
+.btn1 span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+}
