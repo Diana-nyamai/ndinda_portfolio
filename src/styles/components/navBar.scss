@@ -72,6 +72,7 @@ header .navBtn{
             inset 11px -11px 7px #0d4a7d;
         transition: 1s;
         transform: translateY(-100vh);
+        z-index: 100;
     }
     nav li{
         width: 70%;
