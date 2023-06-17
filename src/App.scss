@@ -1,5 +1,10 @@
 @import "./styles/variables/variables.scss";
+
+// components css
 @import "./styles/components/navBar.scss";
+@import "./styles/components/button.scss";
+
+// pages css
 @import "./styles/pages/home.scss";
 
 .app{
