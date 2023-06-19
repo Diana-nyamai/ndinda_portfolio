@@ -13,8 +13,8 @@ function Home() {
         <p className='animate__animated animate__backInRight'>I am a Front-End Engineer</p>
       </div>
       <div className="homeBtn">
-        <Button1 name="Get in Touch"/>
-        <Button1 name="Download CV"/>
+        <Button1 name="Get in Touch" link="/Contact"/>
+        <Button1 name="Download CV" link="/About"/>
       </div>
      </div>
 
