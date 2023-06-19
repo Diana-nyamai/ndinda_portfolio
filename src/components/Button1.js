@@ -1,6 +1,7 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
-function Button1({name}) {
+function Button1({name, link}) {
   return (
     <div className='btn1container'>
         <div className="btn1Center">
@@ -9,7 +10,7 @@ function Button1({name}) {
           <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
           <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
         </svg>
-        <span>{name}</span>
+        <span><Link to={link}>{name}</Link></span>
             </button>
         </div>
     </div>

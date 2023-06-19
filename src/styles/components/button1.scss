@@ -23,7 +23,7 @@
 .btn1Center svg {
     position: relative;
     fill: none;
-    stroke: $text-color;
+    stroke: $secondary-color;
     stroke-dasharray: 150 480;
     stroke-dashoffset: 150;
     transition: 1s ease-in-out;
@@ -46,4 +46,8 @@
     color: white;
     font-size: 15px;
     font-weight: 100;
+}
+.btn1 span a{
+    color: $text-color;
+    text-decoration: none;
 }
