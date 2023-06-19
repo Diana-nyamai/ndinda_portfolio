@@ -1,0 +1,59 @@
+.aboutInfo, .myStack{
+    // border: 1px solid red;
+    max-width: 60%;
+    margin: 60px auto;
+}
+.aboutInfo h1{
+    font-family: $heading-font;
+}
+.aboutInfo p{
+    font-family: $body-font;
+    line-height: 1.5;
+}
+.aboutPar1{
+    // border: 1px solid red;
+    margin: 20px auto;
+}
+.aboutInfo h4{
+    font-family: $heading-font;
+}
+.aboutInfo ul{
+    margin: 20px auto;
+}
+.aboutInfo ul li{
+    font-family: $body-font;
+    line-height: 1.5;
+}
+// .myStack{
+//     border: 1px solid green;
+// }
+.aboutIcons{
+    // border: 4px solid purple;
+    display: flex;
+    margin: 20px auto;
+}
+.listJs{
+    margin: auto 5px;
+    padding: 4px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+.listJs img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.js{
+    background-color: #323330;
+}
+.react{
+    background-color: #20232a;
+}
+.mysql{
+    background-color: #507e9c;
+}
+.html{
+    background-color: #363737;
+}
