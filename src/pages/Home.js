@@ -8,9 +8,9 @@ function Home() {
      <div className="greetings">
 
       <div className="homeText">
-        <p>Hello there,</p>
-        <h1>My name is Diana Nyamai</h1>
-        <p>I am a Front-End Engineer</p>
+        <p className="animate__animated animate__backInDown">Hello there,</p>
+        <h1 className=" animate__animated animate__backInLeft">My name is Diana Nyamai</h1>
+        <p className='animate__animated animate__backInRight'>I am a Front-End Engineer</p>
       </div>
       <div className="homeBtn">
         <Button1 name="Get in Touch"/>
@@ -19,7 +19,7 @@ function Home() {
      </div>
 
      <div className="techImg">
-        <img src={illustration} alt="illustration" />
+        <img className='animate__animated animate__zoomIn' src={illustration} alt="illustration" />
      </div>
     </div>
   )
