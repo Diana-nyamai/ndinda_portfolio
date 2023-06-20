@@ -1,4 +1,4 @@
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,37 +9,52 @@ header{
     box-shadow: inset -9px -9px 18px #041a2c,
         inset 9px 9px 18px #0c4270;
 }
-header h4{
+
+header h4 {
     font-family: $heading-font;
 }
-nav{
+
+nav {
     display: flex;
 }
-nav li{
+
+nav li {
     list-style: none;
     padding: 10px 15px;
     margin: 0 10px;
     transition: all 0.3s 0.2s;
+    border: 2px solid $primary-color;
     border-radius: 5px;
     background: $primary-color;
-    box-shadow: inset -11px 11px 7px #03121f66,
-            inset 11px -11px 7px #0d4a7d;
+    box-shadow: 6px 6px 10px rgba(3, 18, 31, 0.4),
+        1px 1px 10px #0d4a7d;
 }
-nav li a{
+
+nav li a {
     font-family: $body-font;
     color: $text-color;
     text-decoration: none;
 }
-nav li:hover{
+
+nav li:hover {
     cursor: pointer;
-    box-shadow: inset 11px -11px 7px #03121f66,
-            inset -11px 11px 7px #0d4a7d;
+    background: $primary-color;
+    transform: scale(1.05);
+    box-shadow: 6px 6px 10px #03121f66,
+        1px 1px 10px #0d4a7d,
+        inset 2px 2px 10px #03121f66,
+        inset -1px -1px 5px #0d4a7d;
 }
-nav li a:hover{
+
+nav li a:hover {
     color: $secondary-color;
 }
-    
-header .navBtn{
+
+nav li a:focus {
+    color: $secondary-color;
+}
+
+header .navBtn {
     padding: 5px;
     background-color: transparent;
     cursor: pointer;
@@ -49,13 +64,14 @@ header .navBtn{
     visibility: hidden;
     opacity: 0;
 }
-@media all and (max-width: 1024px)
-{
-    header .navBtn{
+
+@media all and (max-width: 1024px) {
+    header .navBtn {
         visibility: visible;
         opacity: 1;
     }
-    header nav{
+
+    header nav {
         position: fixed;
         padding: 40px 0;
         top: 0;
@@ -74,14 +90,17 @@ header .navBtn{
         transform: translateY(-100vh);
         z-index: 100;
     }
-    nav li{
+
+    nav li {
         width: 70%;
         text-align: center;
     }
-    header .responsiveNav{
+
+    header .responsiveNav {
         transform: none;
     }
-    nav .navCloseBtn{
+
+    nav .navCloseBtn {
         position: absolute;
         top: 1rem;
         right: 1rem;
