@@ -1,38 +1,56 @@
-.aboutInfo, .myStack{
+.aboutInfo,
+.myStack {
     // border: 1px solid red;
     max-width: 60%;
     margin: 60px auto;
 }
-.aboutInfo h1{
+
+.aboutInfo h1 {
     font-family: $heading-font;
+    color: $secondary-color;
 }
-.aboutInfo p{
+
+.aboutInfo p {
     font-family: $body-font;
     line-height: 1.5;
 }
-.aboutPar1{
+
+.aboutPar1 {
     // border: 1px solid red;
     margin: 20px auto;
 }
-.aboutInfo h4{
+
+.aboutInfo h4 {
     font-family: $heading-font;
+    color: $secondary-color;
 }
-.aboutInfo ul{
+
+.aboutInfo ul {
     margin: 20px auto;
 }
-.aboutInfo ul li{
+
+.aboutInfo ul li {
     font-family: $body-font;
     line-height: 1.5;
 }
+
 // .myStack{
 //     border: 1px solid green;
 // }
-.aboutIcons{
+.myStack h3 {
+    font-family: $heading-font;
+    color: $secondary-color;
+}
+
+.aboutIcons {
     // border: 4px solid purple;
     display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
     margin: 20px auto;
 }
-.listJs{
+
+.listJs {
     margin: auto 5px;
     padding: 4px;
     list-style-type: none;
@@ -40,20 +58,25 @@
     align-items: center;
     font-size: 13px;
 }
-.listJs img{
+
+.listJs img {
     width: 20px;
     height: 20px;
     margin-right: 10px;
 }
-.js{
+
+.js {
     background-color: #323330;
 }
-.react{
+
+.react {
     background-color: #20232a;
 }
-.mysql{
+
+.mysql {
     background-color: #507e9c;
 }
-.html{
+
+.html {
     background-color: #363737;
 }
