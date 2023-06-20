@@ -1,0 +1,47 @@
+.contactIntro,
+.contactForm {
+    max-width: 80%;
+    margin: 40px auto;
+}
+
+.contactIntro h1 {
+    font-family: $heading-font;
+    text-align: center;
+    color: $secondary-color;
+}
+
+.contactIntro p {
+    line-height: 1.5;
+    font-family: $body-font;
+    padding: 10px 0;
+}
+
+.mySocials h3 {
+    font-family: $heading-font;
+    color: $secondary-color;
+}
+
+.socialsList {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+
+.socialsList li {
+    list-style-type: none;
+    margin: auto 10px;
+    display: flex;
+    align-items: center;
+}
+
+.socialsList li span img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.socialsList li a {
+    text-decoration: none;
+    color: $text-color;
+    margin-left: 10px;
+}

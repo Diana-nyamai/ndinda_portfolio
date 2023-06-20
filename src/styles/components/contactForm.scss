@@ -1,0 +1,83 @@
+.formContainer{
+    margin: 20px auto;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 65px 45px;
+    border-radius: 15px;
+    box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 1),
+    inset -1px -1px 5px rgba(255, 255, 255, 0.6);
+}
+.form .input{
+    width: 300px;
+    min-height: 45px;
+    outline: none;
+    color: $text-color;
+    transition: 0.35s;
+    padding: 0 7px;
+    background-color: $primary-color;
+    border-radius: 6px;
+    border: 2px solid $primary-color;
+    box-shadow: 6px 6px 10px rgba(0,0,0,1),
+    1px 1px 10px rgba(255, 255, 255, 0.6);
+}
+.input:focus{
+    transition: 0.3s;
+}
+.input:focus{
+    transform: scale(1.05);
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 1),
+    1px 1px 10px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 10px rgba(0, 0, 0, 1),
+    inset -1px -1px 5px rgba(255, 255, 255, 0.6);
+}
+.form .textarea, 
+.contactBtn{
+    color: $text-color;
+    transition: 0.35s;
+    outline: none;
+    padding: 7px 7px;
+    background-color: $primary-color;
+    border-radius: 6px;
+    border: 2px solid $primary-color;
+    box-shadow: 6px 6px 10px rgba(0,0,0,1),
+    1px 1px 10px rgba(255, 255, 255, 0.6);
+}
+.textarea:focus{
+    transform: scale(1.05);
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 1),
+    1px 1px 10px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 10px rgba(0, 0, 0, 1),
+    inset -1px -1px 5px rgba(255, 255, 255, 0.6);
+}
+.contactBtn{
+    width: 200px;
+    padding: 15px;
+}
+.contactBtn:hover{
+    transform: scale(1.05);
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 1),
+    1px 1px 10px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 10px rgba(0, 0, 0, 1),
+    inset -1px -1px 5px rgba(255, 255, 255, 0.6);
+    color: $secondary-color;
+}
+
+@media all and (max-width: 760px)
+{
+    .textarea{
+        width: 300px;
+    }
+}
+@media all and (max-width: 300px){
+    .form .input{
+        width: 200px;
+    }
+    .textarea, .contactBtn{
+        width: 200px;
+    }
+}
