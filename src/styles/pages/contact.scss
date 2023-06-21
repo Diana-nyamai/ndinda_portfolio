@@ -44,4 +44,9 @@
     text-decoration: none;
     color: $text-color;
     margin-left: 10px;
+    font-family: $body-font;
+}
+.contactForm h2{
+    font-family: $heading-font;
+    color: $secondary-color;
 }
