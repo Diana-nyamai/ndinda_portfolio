@@ -3,6 +3,11 @@ import js from "../assets/icons/js.png";
 import react from "../assets/icons/react.png";
 import mysql from "../assets/icons/mysql.png";
 import html from "../assets/icons/html.png";
+import css from "../assets/icons/css-3.png";
+import sass from "../assets/icons/sass.png"
+import git from "../assets/icons/Git.png"
+import github from "../assets/icons/github.png"
+import netlify from "../assets/icons/netlify.png"
 
 function About() {
   const stackIcons = [
@@ -29,6 +34,36 @@ function About() {
       icon: html,
       title: "HTML",
       alt: "html",
+    },
+    {
+      class: "css",
+      icon: css,
+      title: "CSS",
+      alt: "css",
+    },
+    {
+      class: "sass",
+      icon: sass,
+      title: "SASS",
+      alt: "sass",
+    },
+    {
+      class: "git",
+      icon: git,
+      title: "GIT",
+      alt: "git",
+    },
+    {
+      class: "github",
+      icon: github,
+      title: "GITHUB",
+      alt: "github",
+    },
+    {
+      class: "netlify",
+      icon: netlify,
+      title: "NETLIFY",
+      alt: "netlify",
     },
   ];
   return (
@@ -66,7 +101,7 @@ function About() {
       </div>
 
       <div className="myStack animate__animated animate__zoomIn animate__delay-3s">
-        <h3>My Stack</h3>
+        <h3>Technologies & Tools</h3>
         <div className="aboutIcons">
           {stackIcons.map((item, index) => (
             <li key={index} className={`listJs ${item.class}`}>
