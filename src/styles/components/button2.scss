@@ -1,0 +1,39 @@
+.button2 button{
+    display: inline-block;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: none;
+    color: $text-color;
+    font-size: 17px;
+    padding: 16px;
+    width: 130px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+.button2 button a{
+    color: $text-color;
+}
+.button2 button span{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    font-size: 15px;
+}
+
+.button2 button span::after{
+    content: '»';
+    position: absolute;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+}
+.button2:hover span{
+    padding-right: 15px;
+}
+.button2:hover span::after{
+    opacity: 1;
+    right: 0;
+}
