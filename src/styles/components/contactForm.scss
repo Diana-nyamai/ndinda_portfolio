@@ -69,11 +69,14 @@
 
 @media all and (max-width: 760px)
 {
+    .form .input{
+        width: 270px;
+    }
     .textarea{
-        width: 300px;
+        width: 270px;
     }
 }
-@media all and (max-width: 300px){
+@media all and (max-width: 380px){
     .form .input{
         width: 200px;
     }
