@@ -17,7 +17,7 @@ function Home() {
         </div>
         <div className="homeBtn">
           <Button1 name="Get in Touch" link="/Contact" />
-          <Button1 name="Download CV" link="/About" />
+          <Button1 name="Download CV" link="https://drive.google.com/file/d/1DphcVzEcUb3jTAbWLks4h9lVGkLD-Ker/view?usp=sharing" />
         </div>
       </div>
 
