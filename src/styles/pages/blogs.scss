@@ -1,7 +1,18 @@
+.mainBlogContainer{
+    width: 100%;
+}
+.mainBlogContainer h1{
+    text-align: center;
+    font-family: $heading-font;
+    margin: 20px auto;
+    color: $secondary-color;
+}
 .blogContainer{
-    // border: 1px solid red;
+    position: relative;
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 40px;
     flex-wrap: wrap;
     margin: 40px 0;
     border-radius: 20px;
@@ -15,6 +26,47 @@
     5px 5px 15px rgba(0,0, 0, 0.3),
     -5px -5px 15px rgba(255, 255, 255, 0.1);
     border-radius: 15px;
-    margin: 30px;
+    margin: 60px 0;
     transition: 0.5s;
+}
+.blogContainer .blogCard .blogBox{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background: $primary-color;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.blogContainer .blogCard, .blogBox:hover{
+    transform: translateY(-20px);
+}
+.blogBox::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.03);
+}
+.blogContent{
+    padding: 20px;
+    text-align: center;
+}
+
+.blogTitle{
+    font-size: 18px;
+    font-family: $heading-font;
+    color: $secondary-color;
+}
+.blogContent p{
+    font-family: $body-font;
+    margin: 20px auto;
+    height: 120px;
 }

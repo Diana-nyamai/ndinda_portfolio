@@ -1,21 +1,40 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import Button2 from "../components/Button2";
 
 function Blogs() {
+  const blogLists = [
+    {
+      title: "Backtracking Algorithm Made Simple",
+      content:
+        "Backtracking, commonly described as a “depth-first search”  algorithm, involves exploring all possible solutions by going as deep as possible along each branch before “backtracking” and trying a different path.",
+      link: "https://ndindacodes.substack.com/p/backtracking-algorithm-made-simple",
+    },
+    {
+      title: "What is Recursion? — Definition & Examples",
+      content:
+        "Recursion is a topic that is not easy to wrap your head around on the first encounter and it might not make sense. Do not give up if you struggle with the concept.",
+      link: "https://medium.com/@dnyamai.dn/what-is-recursion-definition-examples-efdedb2024c4",
+    },
+  ];
   return (
-    <div className='blogContainer'>
-      <div className="blogCard">
-        <div className="blogBox">
-          <div className="blogContent">
-            <span className='cardHeading'>01</span>
-              <span className='blogContent'>Recursion</span>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt eligendi eius voluptas architecto repudiandae. Maiores accusantium soluta suscipit modi, id tempora culpa? Voluptatum iure ullam aliquid nulla a et molestias.</p>
-              <Link to="#">Read More</Link>
+    <div className="mainBlogContainer">
+      <h1 className="animate__animated animate__backInDown">My Articles</h1>
+    <div className="blogContainer animate__animated animate__zoomIn">
+      
+      {blogLists.map((blog, index) => (
+        <div key={index} className="blogCard">
+          <div className="blogBox">
+            <div className="blogContent">
+              <span className="blogTitle">{blog.title}</span>
+              <p>{blog.content}</p>
+              <Button2 name="Read More" link={blog.link} />
+            </div>
           </div>
         </div>
-      </div>
+      ))}
     </div>
-  )
+    </div>
+  );
 }
 
-export default Blogs
+export default Blogs;
