@@ -1,0 +1,19 @@
+.Button3{
+    background-color: transparent;
+    padding: 10px 15px;
+    transition: 400ms;
+}
+.Button3:hover{
+    scale: 1.08;
+}
+.Button3 a{
+    color: $text-color;
+    font-family: $body-font;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.Button3 a span{
+    font-size: 15px;
+}
