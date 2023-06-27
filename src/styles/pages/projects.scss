@@ -1,0 +1,96 @@
+.mainProjectContainer{
+    width: 100%;
+    padding: 0 30px;
+    // border: 1px solid red;
+}
+.mainProjectContainer h1{
+    font-family: $heading-font;
+    color: $secondary-color;
+    text-align: center;
+    margin: 20px 0;
+}
+.projectContainer{
+    // border: 3px solid green;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    gap: 40px;
+    border-radius: 15px;
+    box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 1),
+    inset -1px -1px 5px rgba(255, 255, 255, 0.6);
+}
+.projectBox{
+    // border: 5px solid purple;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.projectPrototype{
+    // border: 6px solid red;
+    max-width: 400px;
+    overflow: hidden;
+}
+.projectPrototype img{
+    width: 320px;
+    object-fit: cover;
+}
+.projectContent h3{
+    font-family: $heading-font;
+    margin-bottom: 15px;
+}
+.projectContent p{
+    font-family: $body-font;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.projectIcons p{
+    font-family: $heading-font;
+    margin-bottom: 5px;
+}
+.languageList{
+    // border: 2px solid greenyellow;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.languageList li{
+    font-family: $body-font;
+    font-size: 14px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin: 10px 0;
+}
+.languageList li span img{
+    width: 20px;
+    height: 20px;
+}
+.projectButtons{
+    display: flex;
+    gap: 20px;
+}
+@media all and (max-width: 768px) {
+    .projectBox{
+        flex-wrap: wrap;
+    }
+    .projectPrototype{
+        width: 100%;
+    }
+    .projectPrototype img{
+        width: 100%;
+    }
+}
+@media all and (max-width: 320px){
+    .projectPrototype{
+        max-width: 260px;
+    }
+    .projectPrototype img{
+        width: 260px;
+    }
+}
