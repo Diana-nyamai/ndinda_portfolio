@@ -31,12 +31,16 @@
 }
 .projectPrototype{
     // border: 6px solid red;
-    max-width: 400px;
+    width: 500px;
     overflow: hidden;
 }
 .projectPrototype img{
     width: 320px;
     object-fit: cover;
+}
+.projectInfo{
+    // border: 2px solid black;
+    width: 100%;
 }
 .projectContent h3{
     font-family: $heading-font;
