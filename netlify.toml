@@ -1,0 +1,15 @@
+[[redirects]]
+from = "/About"
+to = "/About.html"
+
+[[redirects]]
+from = "/Contact"
+to = "/Contact.html"
+
+[[redirects]]
+from = "/Projects"
+to = "/Projects.html"
+
+[[redirects]]
+from = "/Blogs"
+to = "/Blogs.html"
