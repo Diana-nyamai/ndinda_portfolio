@@ -1,6 +1,10 @@
+// images 
 import pinkpalace from "../assets/projects/pinkpalace.png";
 import executive from "../assets/projects/executive.png";
 import chatapp from "../assets/projects/chatapp.png";
+import todo from "../assets/projects/todo.png";
+
+// icons 
 import js from "../assets/icons/js.png";
 import css from "../assets/icons/css-3.png";
 import html from "../assets/icons/html.png"; 
@@ -67,6 +71,27 @@ const data = {
                 name: "CSS",
                 icon: css,
               },
+            ],
+            liveLink: "https://diana-nyamai.github.io/Chat-application/",
+            codeLink: "https://github.com/Diana-nyamai/Chat-application",
+          },
+          {
+            mainImg: todo,
+            name: "TO-DO list app",
+            description: "The Chat application is a web-based application that emulates the core features and functionality of the popular Social media application, Facebook.",
+            technologies: [
+              {
+                name: "HTML",
+                icon: html,
+              },
+              {
+                name: "CSS",
+                icon: css,
+              },
+              {
+                name: "JAVASCRIPT",
+                icon: js
+              }
             ],
             liveLink: "https://diana-nyamai.github.io/Chat-application/",
             codeLink: "https://github.com/Diana-nyamai/Chat-application",
