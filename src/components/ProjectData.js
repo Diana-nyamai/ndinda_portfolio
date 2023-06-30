@@ -93,8 +93,8 @@ const data = {
                 icon: js
               }
             ],
-            liveLink: "https://diana-nyamai.github.io/Chat-application/",
-            codeLink: "https://github.com/Diana-nyamai/Chat-application",
+            liveLink: "https://adoring-wescoff-9acc02.netlify.app/",
+            codeLink: "https://github.com/Diana-nyamai/TO-DO-LIST",
           }
       ]
 }
