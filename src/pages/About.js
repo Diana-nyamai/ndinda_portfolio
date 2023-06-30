@@ -71,14 +71,9 @@ function About() {
       <div className="aboutInfo">
         <h1 className="animate__animated animate__backInDown">About</h1>
         <p className="aboutPar1 animate__animated animate__backInRight">
-          Hello, my name is Diana Ndinda Nyamai. I am from Kenya, Nairobi and I
-          am a passionate Front-End Engineer. My passion for programming runs
-          deep, and as a Frontend engineer. I have a strong technical skill and
-          extensive experience in crucial frontend technologies such as
-          JavaScript, ReactJS, HTML, and CSS. With a creative flair and an eye
-          for design, I can skillfully bring an application to life, refining
-          every detail to achieve a polished end result.I am also committed to
-          keeping pace with the ever-evolving technological landscape.
+        My name is Diana Ndinda Nyamai. I am from Kenya, Nairobi.<br/><br/>
+
+        I am a passionate Front-End Engineer. I have strong technical skills and extensive experience in crucial frontend technologies such as JavaScript, ReactJS, HTML, and CSS. With a creative flair and an eye for design, I can skilfully bring an application to life, refining every detail to achieve a polished end result. I am also committed to keeping pace with the ever-evolving technological landscape.
         </p>
         <h4 className="animate__animated animate__backInLeft animate__delay-1s">
           My hobbies include:{" "}

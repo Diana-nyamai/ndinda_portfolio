@@ -78,7 +78,7 @@ const data = {
           {
             mainImg: todo,
             name: "TO-DO list app",
-            description: "The Chat application is a web-based application that emulates the core features and functionality of the popular Social media application, Facebook.",
+            description: "This is a simple web application that allows you to create a to-do list using HTML, CSS, and JavaScript. You can add new items, mark them as completed, and remove them from the list.",
             technologies: [
               {
                 name: "HTML",

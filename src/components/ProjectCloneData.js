@@ -15,7 +15,7 @@ const clone = {
         {
           mainImg: whatsapp,
           name: "WhatsApp Clone", 
-          description: "The WhatsApp Clone is a web-based application that emulates the core features and functionality of the popular messaging app, WhatsApp. This README file provides an overview of the project, installation instructions, and other relevant information.",
+          description: "The WhatsApp Clone is a web-based application that emulates the core features and functionality of the popular messaging app, WhatsApp.",
           technologies: [
             {
               name: "REACTJS",
