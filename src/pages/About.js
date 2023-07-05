@@ -8,6 +8,9 @@ import sass from "../assets/icons/sass.png"
 import git from "../assets/icons/Git.png"
 import github from "../assets/icons/github.png"
 import netlify from "../assets/icons/netlify.png"
+import figma from "../assets/icons/figma.png"
+import nodejs from "../assets/icons/nodejs.png"
+
 
 function About() {
   const stackIcons = [
@@ -64,6 +67,18 @@ function About() {
       icon: netlify,
       title: "NETLIFY",
       alt: "netlify",
+    },
+    {
+      class: "figma",
+      icon: figma,
+      title: "FIGMA",
+      alt: "figma",
+    },
+    {
+      class: "nodejs",
+      icon: nodejs,
+      title: "NODEJS",
+      alt: "nodejs",
     },
   ];
   return (

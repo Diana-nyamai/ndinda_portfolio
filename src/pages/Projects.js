@@ -1,9 +1,10 @@
 import React from "react";
 import data from "../components/ProjectData";
 import clone from "../components/ProjectCloneData";
+import ux from "../components/ProjectUXData";
 import Button3 from "../components/Button3";
-import {FiExternalLink} from "react-icons/fi"
-import {BsGithub} from "react-icons/bs"
+import { FiExternalLink } from "react-icons/fi";
+import { BsGithub } from "react-icons/bs";
 
 function Projects() {
   return (
@@ -38,8 +39,16 @@ function Projects() {
                 </div>
               </div>
               <div className="projectButtons">
-                <Button3 name="View Live" icon=<FiExternalLink/> link ={list.liveLink}/>
-                <Button3 name="View Code" icon=<BsGithub/> link ={list.codeLink}/>
+                <Button3
+                  name="View Live"
+                  icon=<FiExternalLink />
+                  link={list.liveLink}
+                />
+                <Button3
+                  name="View Code"
+                  icon=<BsGithub />
+                  link={list.codeLink}
+                />
               </div>
             </div>
           </div>
@@ -77,8 +86,44 @@ function Projects() {
                 </div>
               </div>
               <div className="projectButtons">
-                <Button3 name="View Live" icon=<FiExternalLink/> link ={list.liveLink}/>
-                <Button3 name="View Code" icon=<BsGithub/> link ={list.codeLink}/>
+                <Button3
+                  name="View Live"
+                  icon=<FiExternalLink />
+                  link={list.liveLink}
+                />
+                <Button3
+                  name="View Code"
+                  icon=<BsGithub />
+                  link={list.codeLink}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      ))}
+
+      <h1>UX/UI DESIGNS</h1>
+
+      {ux.uxs.map((list, index) => (
+        <div
+          key={index}
+          className="projectContainer animate__animated animate__zoomIn"
+        >
+          <div className="projectBox">
+            <div className="projectPrototype">
+              <img src={list.mainImg} alt="projects" />
+            </div>
+            <div className="projectInfo">
+              <div className="projectContent">
+                <h3>{list.name}</h3>
+                <p>{list.description}</p>
+              </div>
+              <div className="projectButtons">
+                <Button3
+                  name="View Prototype"
+                  icon=<FiExternalLink />
+                  link={list.liveLink}
+                />
               </div>
             </div>
           </div>
