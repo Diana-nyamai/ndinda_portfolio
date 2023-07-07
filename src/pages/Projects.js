@@ -118,6 +118,20 @@ function Projects() {
                 <h3>{list.name}</h3>
                 <p>{list.description}</p>
               </div>
+              <div className="projectIcons">
+                <p>Tool used:</p>
+                <div className="languageList">
+                  {" "}
+                  {list.technologies.map((item, index) => (
+                    <li key={index}>
+                      <span>
+                        <img src={item.icon} alt="icons" />
+                      </span>
+                      {item.name}
+                    </li>
+                  ))}
+                </div>
+              </div>
               <div className="projectButtons">
                 <Button3
                   name="View Prototype"
