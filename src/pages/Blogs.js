@@ -15,6 +15,12 @@ function Blogs() {
         "Recursion is a topic that is not easy to wrap your head around on the first encounter and it might not make sense. Do not give up if you struggle with the concept.",
       link: "https://medium.com/@dnyamai.dn/what-is-recursion-definition-examples-efdedb2024c4",
     },
+    {
+      title: "Simplify Your Coding Life: Essential VSCode Keyboard Shortcuts",
+      content:
+        "Efficiency and productivity are the lifeblood of any programmer. In the world of coding, where every minute detail can make a difference, finding ways to streamline your workflow becomes paramount.",
+      link: "https://medium.com/@dnyamai.dn/simplify-your-coding-life-essential-vscode-keyboard-shortcuts-a37f94a476b3",
+    },
   ];
   return (
     <div className="mainBlogContainer">
