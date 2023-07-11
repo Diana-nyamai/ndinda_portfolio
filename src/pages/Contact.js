@@ -11,7 +11,7 @@ function Contact() {
     {
       image: email,
       title: "Gmail",
-      link: "dnyamai.dn@gmail.com",
+      link: "mailto:dnyamai.dn@gmail.com",
     },
     {
       image: LinkedIn,
