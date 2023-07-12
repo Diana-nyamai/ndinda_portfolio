@@ -11,6 +11,7 @@ import css from "../assets/icons/css-3.png";
 import html from "../assets/icons/html.png";
 import react from "../assets/icons/react.png";
 import php from "../assets/icons/php.png";
+import mysql from "../assets/icons/mysql.png";
 
 
 const data = {
@@ -36,6 +37,10 @@ const data = {
         {
           name: "PHP",
           icon: php
+        }
+        ,{
+          name: "MYSQL",
+          icon: mysql
         }
       ],
       liveLink: "https://skincaremanagement-e6c70e0c65a7.herokuapp.com/",
