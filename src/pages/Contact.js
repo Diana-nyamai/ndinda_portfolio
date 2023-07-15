@@ -4,6 +4,7 @@ import email from "../assets/icons/gmail.png";
 import LinkedIn from "../assets/icons/linkedin.png";
 import Twitter from "../assets/icons/twitter.png";
 import github from "../assets/icons/github.png";
+import IG from "../assets/icons/instagram.png"
 import ContactForm from "../components/ContactForm";
 
 function Contact() {
@@ -27,6 +28,11 @@ function Contact() {
       image: Twitter,
       title: "Twitter",
       link: "https://twitter.com/ndinda_diana_",
+    },
+    {
+      image: IG,
+      title: "Instagram",
+      link: "https://www.instagram.com/ndinda_codes/",
     },
   ];
   return (
