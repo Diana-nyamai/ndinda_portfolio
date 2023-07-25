@@ -1,4 +1,7 @@
 # Project Name: Ndinda Portfolio
+
+[![Built with React](https://img.shields.io/badge/Built%20with-React-blue)](https://reactjs.org/)
+##
 ## Description
 This repository contains the source code and assets for my personal portfolio website. The website showcases my work, skills, and provides information about me as a professional.
 
@@ -7,9 +10,10 @@ This repository contains the source code and assets for my personal portfolio we
 Checkout the live version of my portfolio website [Here](https://www.ndinda.me/)
 ## Technologies used
 
-- REACT JS
-- SASS
-- HTML
+- ![ReactJS](https://img.shields.io/badge/-ReactJS-blueviolet)
+- ![Sass](https://img.shields.io/badge/-Sass-pink)
+
+- ![HTML](https://img.shields.io/badge/-HTML-orange)
 
 ## Features
 - Home page with an introduction and overview of my skills and experience.
@@ -17,17 +21,25 @@ Checkout the live version of my portfolio website [Here](https://www.ndinda.me/)
 - About page providing more details about me, my background, and interests.
 - Contact page with a form to get in touch with me.
 - Responsive design to ensure optimal viewing experience across devices.
+
 ## Installation
 
 To use WhatsApp clone on your local machine, follow these steps:
 
 1. clone the repository
-  - git `clone <repository-url>`
+```
+ git clone https://github.com/Diana-nyamai/ndinda_portfolio.git
+```
+ 
+
 2. install the dependencies
-  - `cd` Whatsapp-Clone
-  - `npm` install
+  ```
+    npm install
+  ```
 3. start the server
-  - npm `start`
+```
+  npm start
+```
 4. Access the application
   - Open your browser and visit `http://localhost:3000`
 
