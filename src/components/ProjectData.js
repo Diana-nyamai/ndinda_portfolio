@@ -17,36 +17,6 @@ import mysql from "../assets/icons/mysql.png";
 const data = {
   lists: [
     {
-      mainImg: skincare,
-      name: "Skincare Management System",
-      description:
-        "This is a web-based application developed as a final year project. The system allows users to sign up, access skincare products for purchase, and book appointments with dermatologists for professional advice and examination. It also provides administrative features for managing products, orders, and user information.",
-      technologies: [
-        {
-          name: "HTML",
-          icon: html,
-        },
-        {
-          name: "CSS",
-          icon: css,
-        },
-        {
-          name: "JavaScript",
-          icon: js,
-        },
-        {
-          name: "PHP",
-          icon: php
-        }
-        ,{
-          name: "MYSQL",
-          icon: mysql
-        }
-      ],
-      liveLink: "https://skincaremanagement-e6c70e0c65a7.herokuapp.com/",
-      codeLink: "https://github.com/Diana-nyamai/SkinCareManagemntSystem",
-    },
-    {
       mainImg: pinkpalace,
       name: "PinkPalace",
       description:
