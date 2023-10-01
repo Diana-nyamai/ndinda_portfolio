@@ -65,7 +65,7 @@ const data = {
           icon: js,
         },
       ],
-      liveLink: "https://pinkpalace.co.ke/",
+      liveLink: "https://thepinkpalace.netlify.app/",
       codeLink: "https://github.com/Diana-nyamai/PINK-PALACE",
     },
     {
