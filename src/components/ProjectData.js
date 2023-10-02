@@ -3,15 +3,15 @@ import pinkpalace from "../assets/projects/pinkpalace.png";
 import executive from "../assets/projects/executive.png";
 import chatapp from "../assets/projects/chatapp.png";
 import todo from "../assets/projects/todo.png";
-import skincare from "../assets/projects/skincare.png";
+// import skincare from "../assets/projects/skincare.png";
 
 // icons
 import js from "../assets/icons/js.png";
 import css from "../assets/icons/css-3.png";
 import html from "../assets/icons/html.png";
 import react from "../assets/icons/react.png";
-import php from "../assets/icons/php.png";
-import mysql from "../assets/icons/mysql.png";
+// import php from "../assets/icons/php.png";
+// import mysql from "../assets/icons/mysql.png";
 
 
 const data = {
